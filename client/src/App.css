@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+
+.Article {
+  text-align: center;
+  color: rgb(133, 104, 133);
+  background-color: rgb(41, 36, 71);
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Card1{
+  background: #eee;
+    margin: 10px;
+    margin-right: auto;
+    padding: 10 px;
+    overflow: auto;
+    width: 100px;
+    
+    
+    text-align: left !important;
+}
+
+.Card{
+  width: 600px;
+  height: 350px;
+  border: 5px solid rgb(59, 76, 170);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Button{
+  flex:20%;
+  height:calc(100%-5px);
+  border: 5px solid rgb(59, 76, 170);
+  border:none;
+  background-color: rgb(59, 76, 170);
+  color: white;
+  font-size: 18px;
+}
